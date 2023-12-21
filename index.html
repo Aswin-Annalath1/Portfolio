@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Aswin A | Web Developer</title>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#home" ><h1>Aswin A</h1></a>
+      
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h3>Hello, It's Me </h3>
+        <h1>Aswin A</h1>
+        <h2>And I'm a <span class="text"></span></h2>
+        <p>I love building websites and pour my dedication into making them awesome. I'm committed to my work and always strive for excellence.</p>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+
+      <div class="home-img">
+        <img src="./images/home-right.png" alt="An image of a boy working in computer" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="about" id="about">
+      <div>
+        <h3>About Me</h3>
+        <p>
+          As a dynamic and risk-seeking individual, I am fueled by a passion for exploring possibilities and pushing boundaries in the ever-evolving field of technology. Committed to delivering 
+          high-quality work without compromise, I bring a fresh perspective and enthusiasm to every project I undertake.
+          Having recently completed my journey as a full-stack web development learner, I am excited to apply my newfound 
+          skills and knowledge to real-world projects. Despite being a fresher, I have successfully executed a few projects that showcase my dedication and ability to adapt quickly to emerging technologies. 
+        </p>
+        <a href="https://drive.google.com/file/d/1hIrkgxfjOgr3w6CqOp8Xnmvle6lKZbjy/view?usp=drivesdk" target="_blank" class="btn">Resume</a>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h3 class="skill-header">Skills</h3>
+      <p>Professional Skills & Tools</p>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React.js logo" loading="lazy" class="icon icon-card" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js logo" loading="lazy" class="icon icon-card" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB logo" loading="lazy" class="icon icon-card" />
+        </div>
+
+        <div class="first-set animate__animated animate__pulse">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="HTML5 logo" loading="lazy" class="icon icon-card" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="CSS3 logo" loading="lazy" class="icon icon-card" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" loading="lazy" class="icon icon-card" />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="Git logo" loading="lazy" class="icon icon-card" />
+          <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" alt="Heroku logo" loading="lazy" class="icon icon-card" /> -->
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" alt="VSCode logo" loading="lazy" class="icon icon-card" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h3 class="projects-title">Projects</h3>
+      <p class="projects-subtitle">Here you can find some of the projects that I created</p>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="./images/Zen_query.jpg" alt="Zen Query Ticketing webpage image" loading="lazy" class="project-pic" />
+          <h3 class="project-title">Zen Query Ticketing</h3>
+          <p class="project-details">
+            The platform allows users to raise tickets based on their queries, and mentors can provide solutions. 
+          </p>
+          <a href="https://comforting-puppy-d55c6d.netlify.app" target="_blank" class="project-link">See Live</a>
+          <a href="https://github.com/Aswin-Annalath1/Zen_query-backend" target="_blank" class="project-link">GitHub Repo</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="./images/user_management.JPG" alt="User Management System webpage image" loading="lazy" class="project-pic" />
+          <h3 class="project-title">User Management System</h3>
+          <p class="project-details">
+            A web application developed for user management where CRUD operations can be made.
+          </p>
+          <a href="https://ubiquitous-macaron-a96eda.netlify.app" target="_blank" class="project-link">See Live</a>
+          <a href="https://github.com/Aswin-Annalath1/User_management-FE" target="_blank" class="project-link">GitHub Repo</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="./images/hall_booking.jpg" alt="Hall Booking API webpage image" loading="lazy" class="project-pic" />
+          <h3 class="project-title">Hall Booking API</h3>
+          <p class="project-details">
+            API for a hall booking app that handles room booking, creation, and retrieval of booked room and customer data.
+          </p>
+          <a href="https://hall-booking-yosz.onrender.com" target="_blank" class="project-link">See Live</a>
+          <a href="https://github.com/Aswin-Annalath1/hall-booking" target="_blank" class="project-link">GitHub Repo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h3>Contact</h3>
+        <p>Submit the form below so I can get back to you as soon as possible</p>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xyylngw" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+        <a class="socicon" href="https://www.linkedin.com/in/aswinannalath/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+        <a class="socicon" href="https://github.com/Aswin-Annalath1/" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <a class="socicon" href="mailto:aswinannalath2001@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+    </div>
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+    ><img
+      src="./images/icons8-upward-arrow.gif"
+      class="socicon up-arrow"
+      alt="scroll-up"
+  /></i>
+
+    <!-- Footer section -->
+    <footer>
+        <p class="copy">Copyright &copy;2023 All rights reserved</p>
+    </footer>
+
+    <!-- Website scripts -->
+
+    <script src="script.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
