@@ -17,3 +17,18 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+function updateClock(){
+  //Get the current time using Moment.js
+  let now = moment()
+
+  //Format the time string,
+  //hh:mm:ss a for hours, minutes, seconds, and AM/PM indication
+  let timeString = now.format('hh:mm:ss a');
+
+  //Update the content of the clock element with the formatted time
+  document.getElementById('clock').innerText = timeString;
+}
+
+//Call the updateClock function every second to keep the clock udated
+setInterval(updateClock,1000);

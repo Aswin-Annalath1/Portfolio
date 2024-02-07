@@ -159,6 +159,15 @@ p{
 	width: 540px;
 	height: auto;
 }
+.home-img div{
+    margin-left: 74%;
+}
+#clock{
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ed733f;
+}
 .about{
     text-align: center;
 	display: flex;
